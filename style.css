@@ -7,9 +7,26 @@ color: purple;
 /* select by CLASS name*/
 .border {
 border: 2px solid black;
+background-color: lavender;
 }
 
 /*select by id name*/
 #intro {
     background-color: rgb(179, 179, 237);
+}
+
+
+
+/* Properties: color and typoragrphy */
+strong { 
+    color:rgb(37, 10, 147);
+    background-color: rgb(180, 112, 244);
+
+    font-family: impact;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
 }
