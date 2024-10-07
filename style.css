@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Playball&family=Shadows+Into+Light&display=swap');
+
+
 /* this is a CSS COMMENT */
 /* select by element TYPE */
+
+body{
+    font-family: "Playball", cursive;
+    
+    background-color: lavenderblush;
+
 P {
 color: purple;
 }
+
+h1,h2,h3 {
+    font-family: "Playball", cursive;
+}
+
 
 /* select by CLASS name*/
 .border {
