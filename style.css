@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Playball&family=Shadows+Into+Light&display=swap');
 
 
-/* this is a CSS COMMENT */
+/* This is a CSS COMMENT */
 /* select by element TYPE */
 
 body{
-    font-family: "Playball", cursive;
+    font-family: "Playball," cursive;
     
     background-color: lavenderblush;
 
@@ -45,4 +45,19 @@ strong {
 
 h1 {
     text-align: center;
+}
+
+/* box model: margin, border, padding, */
+img {
+
+    border-width: 5px;
+    border-style: ridge;
+    border-color: rgb(13, 83, 197);
+    border-radius: 20px;
+
+}
+hr {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(10, 123, 123);
 }
