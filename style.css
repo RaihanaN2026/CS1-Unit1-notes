@@ -10,12 +10,13 @@ body{
     font-family: "Playball," cursive;
     
     background-color: lavenderblush;
+}
 
 P {
 color: purple;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Playball", cursive;
 }
 
@@ -45,6 +46,9 @@ strong {
 
 h1 {
     text-align: center;
+    margin: 5%;
+    padding: 10px;
+
 }
 
 /* box model: margin, border, padding, */
@@ -54,10 +58,17 @@ img {
     border-style: ridge;
     border-color: rgb(13, 83, 197);
     border-radius: 20px;
+    margin-left: 50px;
+    padding: 5px;
 
 }
 hr {
     border-width: 5px;
     border-style: dotted;
     border-color: rgb(10, 123, 123);
+}
+/* tip: easy way to center anything!!! */
+.centered-container {
+    margin: auto;
+    text-align: center;
 }
